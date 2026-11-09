@@ -9,4 +9,7 @@ func main() {
 	hello()
 	greet(name, age)
 	showInfo()
+
+	//excercise
+	variables()
 }
