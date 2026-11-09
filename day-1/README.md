@@ -28,11 +28,11 @@
 ```
 day-1/
 ├── README.md        (this file)
-├── hello.go         (done)
-├── greet.go         Printf with name, age, and %s / %d / %v
-├── comments.go      single-line and block comments, a documented function
-├── imports.go       grouped imports (fmt, os, runtime) printing OS and Go version
-└── exercise.go      your own introduction program (see below)
+├── hello.go         (done) | Println "Hello, World!"
+├── greet.go         (done) | Printf with name, age, and %s / %d / %v
+├── comments.go      (done) | single-line and block comments, a documented function
+├── imports.go       (done) | grouped imports (fmt, os, runtime) printing OS and Go version
+└── exercise.go      (done) | your own introduction program (see below)
 ```
 
 Each file is its own `package main` with its own `main()`, so run them separately (`go run greet.go`). Don't use `go run .` in this folder, since multiple `main` functions in one package will conflict.
