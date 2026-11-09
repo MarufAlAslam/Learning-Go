@@ -1,7 +1,12 @@
 package main
 
 func main() {
+	//variables
+	name := "Maruf"
+	age := 28
+
+	//function calls
 	hello()
-	greet("Maruf", 28)
+	greet(name, age)
 	showInfo()
 }
